@@ -1,0 +1,46 @@
+.dashboard {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f7f1e3; /* Warna krem untuk latar */
+  padding: 60px 40px; /* Padding lebih besar untuk memperbesar kotak */
+  border-radius: 15px; /* Membuat sudut lebih melengkung */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Shadow lebih besar */
+  max-width: 800px; /* Lebar maksimum diperbesar */
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 250px; /* Menambahkan min-height untuk memperbesar latar belakang */
+}
+
+.dashboard h1 {
+  font-size: 3rem; /* Ukuran font judul diperbesar */
+  margin-bottom: 20px;
+  color: #e63946; /* Warna merah lembut untuk judul */
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard p {
+  font-size: 1.4rem; /* Ukuran teks deskripsi diperbesar */
+  color: #333; /* Warna teks utama */
+  margin-bottom: 30px;
+}
+
+.dashboard-link {
+  text-decoration: none;
+  padding: 15px 30px; /* Ukuran tombol lebih besar */
+  background-color: #e63946; /* Warna merah lembut untuk tombol */
+  color: white;
+  border-radius: 15px; /* Bentuk tombol lebih melengkung */
+  font-size: 1.3rem; /* Ukuran teks tombol lebih besar */
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 30px; /* Geser tombol ke bawah */
+  display: inline-block; /* Mengatur tombol sebagai elemen inline-block */
+}
+
+.dashboard-link:hover {
+  background-color: #b42d36; /* Warna hover yang lebih gelap */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); /* Efek zoom saat hover */
+}

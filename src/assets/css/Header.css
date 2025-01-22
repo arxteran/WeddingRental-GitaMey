@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400;500&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f7f1e3;
+  color: white;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.wedding-title {
+  font-family: 'Dancing Script', cursive; /* Font untuk tema pernikahan */
+  font-size: 2.5rem; /* Ukuran font lebih besar untuk menonjolkan judul */
+  margin: 0;
+  margin-left:50px;
+  color: #e63946; /* Warna merah lembut */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Tambahkan efek bayangan */
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  font-family: 'Roboto', sans-serif; /* Font yang lebih modern untuk navigasi */
+  text-decoration: none;
+  color: #e63946;
+  font-size: 1rem;
+  padding: 8px 15px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #e63946; /* Warna merah lembut saat hover */
+  color: white;
+  border-color: #e63946;
+  transform: scale(1.1); /* Efek membesar saat hover */
+}
